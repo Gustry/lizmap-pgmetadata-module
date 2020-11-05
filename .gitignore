@@ -3,3 +3,7 @@
 
 # PHP
 .php_cs.cache
+
+# Node, NPM
+node_modules
+package-lock.json

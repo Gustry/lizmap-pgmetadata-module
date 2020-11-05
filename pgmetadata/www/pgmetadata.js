@@ -7,6 +7,9 @@
 * @license    Mozilla Public Licence
 */
 
+/* global pgmetadataConfig */
+
+// eslint-disable-next-line no-unused-vars
 var lizPgmetadata = function() {
 
     lizMap.events.on({
@@ -28,6 +31,7 @@ var lizPgmetadata = function() {
         $.getJSON(
             url,
             options,
+            // eslint-disable-next-line no-unused-vars
             function( data, status, xhr ) {
                 if (data){
                     if (data.status == 'error') {
